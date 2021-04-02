@@ -1,0 +1,74 @@
+HTML = Hyper text markup language
+
+-> With the help of tags we will give instructions to the browser
+
+Tags :
+
+syntax :  
+        openingtag           closing tag
+          <>                    <\>
+
+-> image element have only opening tag.
+
+Atribute : (just property)
+
+    Syntax : < tagName attribute name = "attribute Property">
+
+    like  <p align = "left" > name      //just align the text left side 
+          <p align = "center"> name     // just align the text center 
+
+some imp Types pf attributes
+
+1) ID :
+    by using the id we can give unique name to the element
+    syntax : <TagName id = "attributevalue">  
+
+2) class:
+    by using class put different element at one place
+    here attribute value is non unique name of the element
+
+Structure of Html :
+
+ <!Doctype html>    // tells that this a html document
+
+ <html>         //page starts
+
+    <head> <title> here </title>   //in this we have to write the title of the tab to be displayed in the webpage
+    </head>                        //head ends
+
+    <body>                          //body of the html starts and write the content you want to display
+    </body>
+</html>    
+
+
+Elements && tags:
+
+1) Heading Elements :
+    h1 to h6 
+    size of the text decreases from h1 to h6
+
+2)  Paragraph tag:
+    <p> used to display only text
+    if we want to display symbols we have to use special characters
+
+3)  break tag :
+    <Br> use to break the line
+
+4)  horizontal tag:
+    <hr> used to get a horizontal rule
+
+*** In html white spaces are ignored when we give white spaces between them ***
+
+---> To get spaces in between the words we use entity in html
+
+Entity :
+    It is used to display reserved characters,special characters or symbols or like emojis and all in html
+
+    Syntax :  &entity_name 
+                 or 
+              &#entity_name
+
+Eg: 
+    to display < we use  &gt
+    To display > we use  &lt;
+    More entity syhttps://www.w3schools.com/html/html_entities.asp

@@ -1,0 +1,139 @@
+HTML = Hyper text markup language
+
+-> With the help of tags we will give instructions to the browser
+
+Tags :
+
+syntax :  
+        openingtag           closing tag
+          <>                    <\>
+
+-> image element have only opening tag.
+
+Atribute : (just property)
+
+    Syntax : < tagName attribute name = "attribute Property">
+
+    like  <p align = "left" > name      //just align the text left side 
+          <p align = "center"> name     // just align the text center 
+
+some imp Types pf attributes
+
+1) ID :
+    by using the id we can give unique name to the element
+    syntax : <TagName id = "attributevalue">  
+
+2) class:
+    by using class put different element at one place
+    here attribute value is non unique name of the element
+
+Structure of Html :
+
+ <!Doctype html>    // tells that this a html document
+
+ <html>         //page starts
+
+    <head> <title> here </title>   //in this we have to write the title of the tab to be displayed in the webpage
+    </head>                        //head ends
+
+    <body>                          //body of the html starts and write the content you want to display
+    </body>
+</html>    
+
+
+Elements && tags:
+
+1) Heading Elements :
+    h1 to h6 
+    size of the text decreases from h1 to h6
+
+2)  Paragraph tag:
+    <p> used to display only text
+    if we want to display symbols we have to use special characters
+
+3)  break tag :
+    <Br> use to break the line
+
+4)  horizontal tag:
+    <hr> used to get a horizontal rule
+
+5)  Bold Tag :
+    <b> used to get display text in bold 
+    <strong> is also used to display text in bold
+
+6)  Italin font:
+    <i> is used to display text in italin font
+    <em> is also for stress emphasis font
+
+7)  small size :
+    <small> is used to decrease the size of the text size
+
+8) Subscript and superscript :
+    to write the text below and above respectively 
+
+9) HyperLink :
+    Just linking a word to a web site;
+    eg: opened a website by clicking a word a new website is opened which can be accomplished by using this
+    <a>is used for HyperLink
+    <a > has an attribute that is href
+    <a href = ""> In href we can we many things like
+            ->we can add website link that is url link (url = uniform Resource locator) that will be open in same tab
+            if we want to open th
+    Types of URL 
+    1)Absolute :It means that the complete path from the starting to the destination.
+    2)Relative : it is the path from current path to the destination.The starting position file is not required.
+
+*** In html white spaces are ignored when we give white spaces between them ***
+
+---> To get spaces in between the words we use entity in html
+
+Entity :
+    It is used to display reserved characters,special characters or symbols or like emojis and all in html
+
+    Syntax :  &entity_name 
+                 or 
+              &#entity_name
+
+Eg: 
+    to display < we use  &gt
+    To display > we use  &lt;
+*** More entity symbols and there html characters: https://www.w3schools.com/html/html_entities.asp
+
+Comments in html:
+
+    Syntax : 
+            opening     closing
+              <!--        -->
+
+lorem  is used to generate random text in html
+
+ --> it is very simple to use just write the word lorem and give the size and press enter
+    EG: lorem50
+
+List in html :
+    List is used to more values.
+    Syntax of the list : 
+            <listType>
+                <li> //represent list item
+            </listType>   
+            This is syntax for a list having single element.If there exist multiple elements then add the items by using <li> 
+
+Types of lists :
+    1)Ordered List
+        In this list it has a order like
+            --> Alphabetical order
+            --> Numerical order
+            --> Roman order
+        it is represented by the tag <ol> if we not add any argument it will defaulty indicate numbers
+        if we want to get Numerical <ol type = "1"> we have to add argument to it
+
+    2)unordered list
+        In this type of list there is no particular order
+        it is represented by the tag <ul> 
+        The elements will be displayed by points in general
+
+    3)Descriptive list:
+        In this type of list contains terms and its descriptions
+        It is represented by the tag <dl>
+
+->Nesting of list
