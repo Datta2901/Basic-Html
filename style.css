@@ -1,0 +1,13 @@
+class selectors (.)
+normal tags (directly can be written)
+
+inline css  : when we write css properties in a style tag
+external css : write all the properties of an html page and link to the html page
+
+
+.name{
+    property :value;
+    background :url("./important.html");
+    /* attributes u wanted; */
+    /* path of the image */
+}
